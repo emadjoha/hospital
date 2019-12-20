@@ -3,7 +3,7 @@ package com.spring.boot.security.jwtsecurity.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "role")
+@Table(name = "role",schema = "hospitalmahani")
 public class Role {
 
     @Id
